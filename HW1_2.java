@@ -12,13 +12,7 @@ public class HW1_2 {
         System.out.println(checkSimple(n, scanner));
     }
 
-    /**
-     * @apiNote Дана последовательность N целых чисел.
-     *          Найти сумму простых чисел.
-     * @param n количество цифр в последовательности
-     * @param scanner последовательность цифр
-     * @return сумма простых чисел в последовательности
-     */
+    
     public static int checkSimple(int n, Scanner scanner){
         int sum = 0;
         for (int i = 0; i < n; i++){
