@@ -6,6 +6,7 @@ public class HW3_2 {
         int[] res = changeFunc(arr);
         for (int n : res) {
             System.out.print(n + " ");
+            System.out.println(arr);
         }
     }
 
