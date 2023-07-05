@@ -18,5 +18,20 @@ public class HW2_2 {
      * @return возрастающая или нет последовательность
      */
 
+<<<<<<< HEAD
+    
+=======
+    private static boolean numbIncrement(int n, Scanner sc) {
+        System.out.println("Введите числа: ");
+        int firstNum = sc.nextInt();
+        for (int i = 0; i < n - 1; i++){
+            int secondNum = sc.nextInt();
+            if(firstNum > secondNum){
+                return false;
+            }
+            firstNum = secondNum;
+        }
+        return true;
+>>>>>>> d8b419b857a31276a65986aa3ca1cd44e86ea2a4
     }
 }
